@@ -1,0 +1,151 @@
+body {
+	background-color: #FFFFFF;
+	width: 100%;
+}
+.wrapper {
+	min-height: 934px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+	gap: 100px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #16133D;
+}
+
+.container {
+	max-width: 1440px;
+	padding: 0 135px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 52px;
+	letter-spacing: 0.2px;
+	color: #16133D;
+	margin: 15px 0 40px 0;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 21px;
+	letter-spacing: 0.2px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 21px;
+	color: #7690A8;
+}
+
+header,
+main,
+footer {
+
+}
+
+
+/* -----------header----------- */
+
+.container__header {
+
+}
+.container {
+}
+.header-logo {
+}
+.logo {
+}
+.name-logo {
+	font-family: 'Quicksand', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 35px;
+	color: #16133D;
+}
+
+/* -----------main------------- */
+.main__container {
+}
+
+.block-cards {
+	display: flex;
+	justify-content: flex-start;
+	gap: 30px;
+}
+
+.block-cards__item{
+	max-width: 370px;
+	min-height: 340px;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 30px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 15px;
+}
+.icon {
+}
+.title {
+}
+
+.text {
+	font-size: 16px;
+	line-height: 28px;
+	color: #16133D;
+}
+
+.learn-more {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #3DB370;
+}
+
+.block-cards__item_2 {
+}
+.block-cards__item_3 {
+}
+/* -----------footer---------- */
+footer {
+	background-color: #16133D;
+}
+.footer__container {
+	padding: 40px 135px;
+}
+
+.footer-logo .name-logo  {
+	color: #FFFFFF;
+	margin-bottom: 40px;
+}
+
+.block-icons {
+	min-width: 230px;
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
+}
+
+.insta {
+}
+.facebook {
+}
+.git {
+}
+.dribble {
+}
+.twitter {
+}
