@@ -161,8 +161,9 @@ footer {
 	gap: 10px;
 }
 
-.socials svg:hover,
 .green:hover {
   fill: #3DB370;	
 	transition: 0.5s;
 }
+
+/* ховери працюють не так, треба, щоб спрацьовував при наведенні на саму іконку */
